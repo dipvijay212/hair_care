@@ -13,6 +13,32 @@
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Contact Bar */
+.contact-bar {
+    max-width: 1200px;
+    margin: 0 auto 1.5rem auto;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.contact-bar a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.contact-bar a:hover {
+    color: var(--accent-color);
+}
+
+.separator {
+    color: #cbd5e1;
+}
+
 * {
     margin: 0;
     padding: 0;
